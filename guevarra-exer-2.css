@@ -6,14 +6,35 @@
     text-align: justify;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background-image: url('guevarra-silly-pedestrian.gif');
+    background-position: center;
+    border-radius: 25px;
+    margin-top: -50px;
+    height: 360px;
+    width: 100%;
+    box-shadow: 4px 4px 10px black;
+}
+
+.header .text {
+    margin: 0px;
+    margin-left: 20px;
+    color: white;
+    font-family: monospace;
+    text-align: left;
+    
+}
+
 #title {
     font-size: 80px;
-    text-align: center;
 }
 
 #subtitle {
     font-size: 50px;
-    text-align: center;
 }
 
 #self {
