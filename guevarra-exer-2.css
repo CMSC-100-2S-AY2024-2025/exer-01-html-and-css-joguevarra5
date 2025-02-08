@@ -89,6 +89,10 @@ ul {
     margin: 30px;
 }
 
+.footer .container .text {
+    text-indent: 0px;
+}
+
 /* modifies textual id's */
 #title {
     font-size: 80px;
